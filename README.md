@@ -22,6 +22,7 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    -[key features](#key-features)
    <!--  - [🚀 Live Demo](#live-demo)   -->
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -40,21 +41,47 @@
 
 
 
-## 📖 Math Magician <a name="about-project"></a>
+## 📖  book-store <a name="about-project"></a>
 
 **[Book-store]** is a basic website that allows users to add/remove books from a list.
 
 ## 🛠 Built With  VSCode  <a name="Built With VSCode"></a>
 
-- React
-- Javascript
-- Html5
-- Css3
+### HTML/CSS, javascript, Webpack, React and Redux <a name="tech-stack"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+>
 
-### HTML/CSS, javascript, Webpack <a name="tech-stack"></a>
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">HTML</a></li>
+  </ul>
+</details>
 
+<details>
+  <summary>Styling</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">CSS</a></li>
+  </ul>
+</details>
+<details>
+  <summary>React</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">CSS</a></li>
+  </ul>
+</details>
+<details>
+  <summary>Functionality</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">CSS</a></li>
+  </ul>
+</details>
+<details>
+  <summary>Redux</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">HTML</a></li>
+  </ul>
+</details>
 
 
 
