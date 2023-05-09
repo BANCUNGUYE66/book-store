@@ -45,11 +45,11 @@
 
 **[Book-store]** is a basic website that allows users to add/remove books from a list.
 
-## 🛠 Built With  VSCode  <a name="Built With VSCode"></a>
 
-### HTML/CSS, javascript, Webpack, React and Redux <a name="tech-stack"></a>
+## 🛠 Built With <a name="built-with">VSCode</a>
 
->
+### <a name="tech-stack">HTML/CSS, Javascript</a>
+
 
 <details>
   <summary>Client</summary>
@@ -64,28 +64,22 @@
     <li><a href="https://expressjs.com/">CSS</a></li>
   </ul>
 </details>
+
 <details>
-  <summary>React</summary>
+<summary>Functionality</summary>
   <ul>
-    <li><a href="https://expressjs.com/">CSS</a></li>
-  </ul>
-</details>
-<details>
-  <summary>Functionality</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">CSS</a></li>
-  </ul>
-</details>
-<details>
-  <summary>Redux</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">HTML</a></li>
+    <li><a href="https://www.postgresql.org/">Javascript</a></li>
   </ul>
 </details>
 
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
 
 
-
+- **[section to show list of books]()**
+- **[section to add to the list of books]()**
+- **[A button to delete the from the list of books]()**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -244,6 +238,12 @@ I would like to thank  Microverse
 - **[Did you run all the tests**
 
   - Yes
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
