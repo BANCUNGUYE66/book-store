@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import CreateBook from './Books';
 import { getBooks } from '../redux/books/bookSlice';
+import './Books.css';
 
 const Booklist = () => {
   const books = useSelector((state) => state.books.books);
@@ -12,7 +13,7 @@ const Booklist = () => {
   }, [dispatch]);
 
   return (
-    <div>
+    <div className="main_books">
       {books.map((book) => (
         <li key={book.item_id}>
           <CreateBook
