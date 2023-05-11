@@ -1,14 +1,13 @@
 /* eslint-disable react/prop-types */
 import { useDispatch } from 'react-redux';
-import { removeBook } from '../redux/books/bookSlice';
+import { deleteBooks } from '../redux/books/bookSlice';
 
 const CreateBook = ({ title, author, id }) => {
   const dispatch = useDispatch();
 
-  const handleRemoveClick = () => {
-    dispatch(removeBook({ id }));
+  const deleteHandleClick = (bookId) => {
+    dispatch(deleteBooks(bookId));
   };
-
   return (
     <div className="books_wrapper">
       <div className="books">
@@ -18,7 +17,7 @@ const CreateBook = ({ title, author, id }) => {
       {title && (
       <div className="buttons">
         <button type="button">comments</button>
-        <button type="button" onClick={handleRemoveClick}>
+        <button type="button" onClick={() => deleteHandleClick(id)}>
           remove
         </button>
       </div>
