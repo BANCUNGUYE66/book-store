@@ -1,16 +1,31 @@
 .new_book {
-  display: flex;
-  padding: 12px 30px;
+  padding: 1.813rem 6.25rem;
 }
 
-.new_book form {
-  display: flex;
-  gap: 20px;
+.new_book h2 {
+  font-weight: 700;
+  color: #888;
+  font-size: 1.25rem;
+  margin-bottom: 12px;
 }
 
-.books_wrapper {
-  width: 100%;
+form {
   display: flex;
-  align-items: center;
-  margin-left: 4rem;
+  gap: 24px;
+}
+
+form input {
+  width: 400px;
+  border: solid 1px #e8e8e8;
+  border-radius: 3px;
+  padding: 6px 12px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 6px 24px 0, rgba(0, 0, 0, 0.08) 0 0 0 1px;
+}
+
+form button {
+  border: none;
+  padding: 12px 40px;
+  border-radius: 3px;
+  background-color: #0290ff;
+  color: white;
 }

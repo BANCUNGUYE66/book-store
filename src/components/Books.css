@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+.books_main_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.813rem 6.25rem;
+}
+
+.books_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 5px;
+  padding: 1rem 4rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 6px 24px 0, rgba(0, 0, 0, 0.08) 0 0 0 1px;
+}
+
+.progress_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+
+.progress_bar {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  gap: 1rem;
+  border-right: 1px solid rgb(200, 198, 198);
+  padding-right: 6rem;
+}
+
+.main_books li {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.books_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.books_wrapper h5 {
+  color: rgba(0, 0, 0, 0.403);
+  margin-bottom: 7px;
+}
+
+.books p {
+  color: #4386bf;
+  margin-bottom: 12px;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.buttons .comments {
+  padding-right: 8px;
+  border-right: 1px solid #e8e8e8;
+}
+
+.buttons button {
+  display: flex;
+  border: none;
+  font-size: 0.875rem;
+  justify-content: space-around;
+  color: #4386bf;
+  background-color: white;
+}
+
+.chapter_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 1rem 9rem 1rem 1rem;
+}
+
+.chapter_wrapper h2 {
+  color: rgba(0, 0, 0, 0.398);
+  font-size: 0.813rem;
+}
+
+.chapter_wrapper p {
+  color: rgba(0, 0, 0, 0.782);
+  font-size: 1rem;
+}
+
+.chapter_button button {
+  border: none;
+  color: white;
+  padding: 7px 28px;
+  background-color: #0290ff;
+  border-radius: 4px;
+}
