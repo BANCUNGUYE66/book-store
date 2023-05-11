@@ -1,6 +1,7 @@
+import { nanoid } from '@reduxjs/toolkit';
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addBook } from '../redux/books/bookSlice';
+import { postBooks } from '../redux/books/bookSlice';
 import './Addbook.css';
 import Books from './Books';
 
@@ -11,7 +12,13 @@ const Addbook = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    dispatch(addBook({ title, author }));
+    dispatch(postBooks({
+      item_id: nanoid(),
+      title,
+      author,
+      category: null,
+
+    }));
     setTitle('');
     setAuthor('');
   };
